@@ -13,7 +13,7 @@ const icon = {
 
 export default function Hero() {
     return (
-        <section className="w-full h-screen bg-white dark:bg-gray-900 p-6">
+        <section className="w-full h-screen bg-white dark:bg-black p-6">
             <div className="w-full h-full border-4 border-black dark:border-white rounded-3xl flex flex-col items-center justify-center">
                 <motion.svg
                     className="absolute top-1/2 left-1/2 max-w-full px-8 z-0"
@@ -54,7 +54,7 @@ export default function Hero() {
                     <div className="flex gap-2">
                         <a
                             href="https://forms.gle/u39QsUvgPfxq2FDCA"
-                            className="inline-flex select-none justify-center rounded-md border border-black bg-black hover:bg-white px-6 py-3 text-md font-medium text-white hover:text-black focus:outline-none focus-visible:ring-2 focus-visible:ring-black focus-visible:ring-offset-2"
+                            className="inline-flex select-none justify-center rounded-md border border-black bg-black hover:bg-white px-6 py-3 text-md font-medium text-white hover:text-black focus:outline-none focus-visible:ring-2 focus-visible:ring-black focus-visible:ring-offset-2 dark:bg-white dark:text-black dark:border-white dark:hover:bg-black dark:hover:text-white dark:focus-visible:ring-white dark:focus-visible:ring-offset-black"
                         >
                             Join the waitlist
                         </a>
